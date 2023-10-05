@@ -15,8 +15,6 @@ import random
 import time
 import matplotlib.pyplot as plt
 
-from MitM import apply_gaussian_noise
-
 
 try:
     sys.path.append(glob.glob('../carla/dist/carla-*%d.%d-%s.egg' % (
